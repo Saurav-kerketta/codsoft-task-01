@@ -6,7 +6,7 @@ public class RandomNumberGuessingGame {
         // Define the range
         int min = 1;
         int max = 100;
-        int maxAttempts = 10; // Maximum number of attempts per round
+        int maxAttempts = 3; // Maximum number of attempts per round
         int score = 0; // User's score
 
         Scanner scanner = new Scanner(System.in);
